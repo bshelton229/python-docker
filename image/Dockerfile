@@ -36,9 +36,6 @@ RUN apt-get update && apt-get install -y \
     zlib1g-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# Help Pillow find freetype2 on 14.04
-RUN ln -s /usr/include/freetype2 /usr/include/freetype
-
 # Scss/sass dependencies
 RUN gem install sass -v 3.4.5 --no-rdoc --no-ri
 RUN gem install compass -v 1.0.1 --no-rdoc --no-ri
