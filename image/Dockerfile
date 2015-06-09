@@ -27,9 +27,7 @@ RUN apt-get update && apt-get install -y \
     phantomjs \
     python \
     python-dev \
-    python-imaging \
     python-pip \
-    python-pyexiv2 \
     ruby-dev \
     sqlite3 \
     swig \
