@@ -12,9 +12,11 @@ RUN apt-get update && apt-get install -y \
     libspatialite-dev \
     libtidy-dev \
     libxft-dev \
+    mysql-client \
     nodejs \
     nodejs-legacy \
     npm \
+    postgresql-client \
     ruby \
     ruby-dev \
     sqlite3 \
