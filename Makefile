@@ -1,5 +1,5 @@
 NAME = bshelton229/python
-VERSION = latest
+VERSION = 2.7.10
 
 all: build
 
