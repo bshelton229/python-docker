@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     fontconfig \
     geoip-database \
     gettext \
+    less \
     libcurl4-gnutls-dev \
     libgeoip1 \
     libgeos-dev \
@@ -21,6 +22,7 @@ RUN apt-get update && apt-get install -y \
     ruby-dev \
     sqlite3 \
     swig \
+    vim \
     && rm -rf /var/lib/apt/lists/*
 
 # Scss/sass dependencies
